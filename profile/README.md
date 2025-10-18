@@ -1,6 +1,6 @@
 # RewardRun
 
-![Mockups](Mockups.png)
+![Mockups](../Mockups.png)
 
 ## Beschreibung
 
