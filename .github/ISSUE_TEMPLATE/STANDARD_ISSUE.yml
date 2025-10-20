@@ -2,12 +2,6 @@ name: Standard Issue
 description: A simple template for creating standard issues.
 
 body:
-  - type: markdown
-    attributes:
-      value: |
-        ## Description
-        _Provide a short summary of the issue here._
-
   - type: textarea
     id: issue-description
     attributes:
@@ -15,16 +9,12 @@ body:
       description: Provide details about the issue.
       placeholder: Short summary of the issue.
 
-  - type: markdown
-    attributes:
-      value: |
-        ## Acceptance Criteria
-
-  - type: checkboxes
+  - type: textarea
     id: acceptance-criteria
     attributes:
       label: Acceptance Criteria
-      options:
-        - label: Criteria 1
-        - label: Criteria 2
-        - label: Criteria 3
+      description: Provide criteria that have to be met before closing this issue.
+      placeholder: |
+        - [ ] Criteria 1
+        - [ ] Criteria 2
+        - [ ] Criteria 3
