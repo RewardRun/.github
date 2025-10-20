@@ -8,6 +8,8 @@ body:
       label: Description
       description: Provide details about the issue.
       placeholder: Short summary of the issue.
+    validations:
+      required: true
 
   - type: textarea
     id: acceptance-criteria
@@ -18,3 +20,14 @@ body:
         - [ ] Criteria 1
         - [ ] Criteria 2
         - [ ] Criteria 3
+    validations:
+      required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Add any extra thoughts, links, or information.
+      placeholder: Optional notes or context.
+    validations:
+      required: false
